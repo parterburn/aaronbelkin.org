@@ -19,6 +19,11 @@
 
       .hidden { visibility: hidden; }
       .unhidden { visibility: visible; }
+
+      iframe video[name="media"] {
+        height: 100%;
+        width: 100%;
+      }
     </style>
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -224,24 +229,24 @@
         </div>
 
         <div class="span6">
-            <div id="ap" style="padding-bottom:10px;"><a href="https://www.youtube.com/embed/CrGypFWupBg" onclick="switchVid('ap','https://www.youtube.com/embed/CrGypFWupBg?autoplay=1');return false;"><img src="assets/videos/ap.jpg" alt="AP Television" style="border:2px solid black;"></a></div><br/>
+            <div id="ap" style="padding-bottom:10px;"><a href="./assets/videos/video-files/Aaron Belkin on AP Television.mp4" onclick="switchVid('ap','./assets/videos/video-files/Aaron Belkin on AP Television.mp4');return false;"><img src="assets/videos/ap.jpg" alt="AP Television" style="border:2px solid black;"></a></div><br/>
 
-            <div id="cnn" style="padding-bottom:10px;"><a href="https://www.youtube.com/embed/eUU7ZthsG08" onclick="switchVid('cnn','https://www.youtube.com/embed/eUU7ZthsG08?autoplay=1');return false;"><img src="assets/videos/cnn.jpg" alt="CNN News: Discussing Impact of Victory" style="border:2px solid black;"></a></div><br/>
+            <div id="cnn" style="padding-bottom:10px;"><a href="./assets/videos/video-files/Aaron Belkin Discusses Impact of Victory.mp4" onclick="switchVid('cnn','./assets/videos/video-files/Aaron Belkin Discusses Impact of Victory.mp4');return false;"><img src="assets/videos/cnn.jpg" alt="CNN News: Discussing Impact of Victory" style="border:2px solid black;"></a></div><br/>
         </div>
         <div class="span6">
-            <div id="maddow" style="padding-bottom:10px;"><a href="https://www.youtube.com/embed/75VAIE2e72A" onclick="switchVid('maddow','https://www.youtube.com/embed/75VAIE2e72A?autoplay=1');return false;"><img src="assets/videos/maddow.jpg" alt="Maddow June 30, 2016" style="border:2px solid black;"></a></div><br/>
+            <div id="maddow" style="padding-bottom:10px;"><a href="./assets/videos/video-files/Aaron Belkin on Maddow June 30 2016.mp4" onclick="switchVid('maddow','./assets/videos/video-files/Aaron Belkin on Maddow June 30 2016.mp4');return false;"><img src="assets/videos/maddow.jpg" alt="Maddow June 30, 2016" style="border:2px solid black;"></a></div><br/>
 
-              <div id="pbs1" style="padding-bottom:10px;"><a href="https://www.youtube.com/embed/D6m0q4cdXTg" onclick="switchVid('pbs1','https://www.youtube.com/embed/D6m0q4cdXTg?autoplay=1');return false;"><img src="assets/videos/pbs-1.jpg" alt="PBS Newshour: The Future Of Don't Ask, Don't Tell, part 1" style="border:2px solid black;"></a></div><br/>
+              <div id="pbs1" style="padding-bottom:10px;"><a href="./assets/videos/video-files/PBS Newshour_ Considering the Future of Don't Ask Don't Tell.mp4" onclick="switchVid('pbs1','./assets/videos/video-files/PBS Newshour_ Considering the Future of Dont Ask Dont Tell.mp4');return false;"><img src="assets/videos/pbs-1.jpg" alt="PBS Newshour: The Future Of Don't Ask, Don't Tell, part 1" style="border:2px solid black;"></a></div><br/>
         </div>
         <div class="span6">
-              <div id="fox" style="padding-bottom:10px;"><a href="https://www.youtube.com/embed/vJAQUwx2Zzw" onclick="switchVid('fox','https://www.youtube.com/embed/vJAQUwx2Zzw?autoplay=1');return false;"><img src="assets/videos/fox.jpg" alt="O'Reilly Factor: Discussing Palm Center Research" style="border:2px solid black;"></a></div><br/>
+              <div id="fox" style="padding-bottom:10px;"><a href="./assets/videos/video-files/Aaron Belkin on OReilly Factor.mp4" onclick="switchVid('fox','./assets/videos/video-files/Aaron Belkin on OReilly Factor.mp4');return false;"><img src="assets/videos/fox.jpg" alt="O'Reilly Factor: Discussing Palm Center Research" style="border:2px solid black;"></a></div><br/>
 
-              <div id="democracy-now" style="padding-bottom:10px;"><a href="https://www.youtube.com/embed/XwMCfA22poc" onclick="switchVid('democracy-now','https://www.youtube.com/embed/XwMCfA22poc?autoplay=1');return false;"><img src="assets/videos/democracy-now.jpg" alt="Democracy Now: Discussing Impact of Victory" style="border:2px solid black;"></a></div><br/>
+              <div id="democracy-now" style="padding-bottom:10px;"><a href="./assets/videos/video-files/Dont Ask Dont Tell Ban on Gay Lesbians in the US Military is Lifted Democracy Now.mp4" onclick="switchVid('democracy-now','./assets/videos/video-files/Dont Ask Dont Tell Ban on Gay Lesbians in the US Military is Lifted Democracy Now.mp4');return false;"><img src="assets/videos/democracy-now.jpg" alt="Democracy Now: Discussing Impact of Victory" style="border:2px solid black;"></a></div><br/>
         </div>
         <div class="span6">
-                <div id="pbs2" style="padding-bottom:10px;"><a href="https://www.youtube.com/embed/9MeCqInKf5c" onclick="switchVid('pbs2','https://www.youtube.com/embed/9MeCqInKf5c?autoplay=1');return false;"><img src="assets/videos/pbs-2.jpg" alt="PBS Newshour: The Future Of Don't Ask, Don't Tell, part 2" style="border:2px solid black;"></a></div><br/>
+                <div id="pbs2" style="padding-bottom:10px;"><a href="./assets/videos/video-files/PBS Newshour_ Considering the Future of Dont Ask Dont Tell.mp4" onclick="switchVid('pbs2','./assets/videos/video-files/PBS Newshour_ Considering the Future of Dont Ask Dont Tell.mp4');return false;"><img src="assets/videos/pbs-2.jpg" alt="PBS Newshour: The Future Of Don't Ask, Don't Tell, part 2" style="border:2px solid black;"></a></div><br/>
 
-                <div id="abc" style="padding-bottom:10px;"><a href="https://www.youtube.com/embed/D1RbgSPJCgA" onclick="switchVid('abc','https://www.youtube.com/embed/D1RbgSPJCgA?autoplay=1');return false;"><img src="assets/videos/abc.jpg" alt="ABC Nightline: The war in Iraq" style="border:2px solid black;"></a></div><br/>
+                <div id="abc" style="padding-bottom:10px;"><a href="./assets/videos/video-files/ABC Nightline_ The war in Iraq.mp4" onclick="switchVid('abc','./assets/videos/video-files/ABC Nightline_ The war in Iraq.mp4');return false;"><img src="assets/videos/abc.jpg" alt="ABC Nightline: The war in Iraq" style="border:2px solid black;"></a></div><br/>
         </div>
 
       </div>
@@ -279,7 +284,7 @@ function switchVid(divID,youtube) {
 
   var item = document.getElementById(divID);
     if (item) {
-      item.innerHTML = '<iframe width="100%" height="370" src="'+ youtube + '" frameborder="0" allowfullscreen></iframe>';
+      item.innerHTML = '<iframe width="100%" height="370" src="'+ youtube + '" frameborder="0" allowfullscreen allow="fullscreen" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>';
     }
 
 }

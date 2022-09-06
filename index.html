@@ -236,11 +236,11 @@ picked up by Oxford University Press in 2013.</p>
       </div>
 
         <div class="span4">
-            <div id="ap" style="padding-bottom:10px;"><a href="https://www.youtube.com/embed/CrGypFWupBg" onclick="switchVid('ap','https://www.youtube.com/embed/CrGypFWupBg?autoplay=1');return false;"><img src="assets/videos/ap-notitle.jpg" alt="AP Television" style="border:2px solid black;"></a></div>
+            <div id="ap" style="padding-bottom:10px;"><a href="./assets/videos/video-files/Aaron Belkin on AP Television.mp4" onclick="switchVid('ap','./assets/videos/video-files/Aaron Belkin on AP Television.mp4');return false;"><img src="assets/videos/ap-notitle.jpg" alt="AP Television" style="border:2px solid black;"></a></div>
         </div>
 
         <div class="span4">
-              <div id="maddow" style="padding-bottom:10px;"><a href="https://www.youtube.com/embed/75VAIE2e72A" onclick="switchVid('maddow','https://www.youtube.com/embed/75VAIE2e72A?autoplay=1');return false;"><img src="assets/videos/maddow-notitle.jpg" alt="Maddow June 30, 2016" style="border:2px solid black;"></a></div>
+              <div id="maddow" style="padding-bottom:10px;"><a href="./assets/videos/video-files/Aaron Belkin on Maddow June 30 2016.mp4" onclick="switchVid('maddow','./assets/videos/video-files/Aaron Belkin on Maddow June 30 2016.mp4');return false;"><img src="assets/videos/maddow-notitle.jpg" alt="Maddow June 30, 2016" style="border:2px solid black;"></a></div>
               <div style="margin-top:10px;float:right;"><h4>&raquo; <a href="articles-media.html#media">See more media coverage</a></h4></div>
               <div style="clear:both;"></div>
         </div>
@@ -283,7 +283,7 @@ function switchVid(divID,youtube) {
 
   var item = document.getElementById(divID);
     if (item) {
-      item.innerHTML = '<iframe width="100%" height="220" src="'+ youtube + '" frameborder="0" allowfullscreen></iframe>';
+      item.innerHTML = '<iframe width="100%" height="220" src="'+ youtube + '" frameborder="0" allowfullscreen allow="fullscreen" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>';
     }
 
 }
